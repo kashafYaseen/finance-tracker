@@ -30,6 +30,14 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 # Devise for authentication 
 gem 'devise'
+
+gem "font-awesome-rails"
+
+gem 'devise-bootstrap-views', '~> 1.0'
+
+# Use IEX to get financial data
+gem 'iex-ruby-client'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
